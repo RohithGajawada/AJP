@@ -2,7 +2,7 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class AdapterDemo extends Frame{
-String msg=" ";
+String msg=" ";//hello
 public AdapterDemo(){
 addMouseListener(new MyMouseAdapter(this));
 addMouseMotionListener(new MyMouseAdapter(this));
